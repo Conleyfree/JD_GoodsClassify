@@ -9,7 +9,7 @@ from gensim.models.doc2vec import Doc2Vec
 import jieba                                                    # 引入 jieba 分词包
 import Kmeans_module
 
-mysql_conn = mysql_connector(host='127.0.0.1', user='root', password='1234', port='3306', database='tmall_comments')
+mysql_conn = mysql_connector(host='127.0.0.1', user='root', password='1234', port='3306', database='tmall_comments4gift')
 mysql_conn.connect()
 result = mysql_conn.execute("select name from product")
 
